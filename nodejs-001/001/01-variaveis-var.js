@@ -17,10 +17,9 @@ dbz();
 console.log(`04-valor permanece inalterado: ${raca}\n`);
 
 {
+  // Redeclaração e reatribuição de variável
   var raca = 'Majin';
-  console.log(`05-redeclaração: ${raca}\n`);
+  console.log(`05-Não tem escopo de bloco: ${raca}\n`);
 }
 
-raca = 'Saibaiman';
-
-console.log(`06-reatribuição: ${raca}\n`);
+console.log(`06-Acessível fora do bloco: ${raca}\n`);
