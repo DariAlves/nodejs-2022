@@ -1,1 +1,1 @@
-# nodejs-bootcamp
+# nodejs-studies
