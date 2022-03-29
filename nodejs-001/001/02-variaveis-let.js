@@ -22,6 +22,6 @@ console.log(`04-valor permanece inalterado: ${raca}\n`);
   let raca = 'Majin';
   console.log(`05-escopo de bloco: ${raca}\n`);
 }
-
+ 
 // Valor permanece o mesmo do inicial, porque não foi alterado
 console.log(`06-Não acessível fora do bloco: ${raca}\n`);
