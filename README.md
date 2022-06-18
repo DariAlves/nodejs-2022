@@ -7,3 +7,7 @@
 ## crud level - 2
 
 - JavaScript: Módulos
+
+## crud level - 3
+
+- JavaScript: localStorage API
