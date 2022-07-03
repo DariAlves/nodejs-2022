@@ -9,7 +9,12 @@ function createCourse(request, response) {
         duration: 30,
         educator: 'John Wick',
     };
+    const course2 = {
+        name: 'React.js',
+        educator: 'John Snow',
+    };
     createCoursesService.execute(course);
+    createCoursesService.execute(course2);
     return response.send();
 }
 exports.createCourse = createCourse;

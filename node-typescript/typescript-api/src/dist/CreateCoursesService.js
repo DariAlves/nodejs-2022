@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CreateCoursesService = void 0;
 class CreateCoursesService {
-    execute({ name, duration, educator }) {
+    execute({ name, duration = 10, educator }) {
         console.log(`${name} ${duration} ${educator}`);
     }
 }
